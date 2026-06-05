@@ -1,0 +1,15 @@
+# zig
+zig-cache/
+zig-out/
+
+# antidote plugin cache
+.antidote/
+
+# secrets
+conf.d/secrets.zsh
+
+# macOS
+.DS_Store
+
+# history
+.zsh_history
