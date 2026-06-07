@@ -9,7 +9,12 @@
 .antidote/
 
 # secrets
-conf.d/secrets.zsh
+secrets.zsh
+secrets.zsh.gpg
+secrets.zsh.age
+config/secrets.zsh
+config/secrets.zsh.gpg
+config/secrets.zsh.age
 
 # macOS
 .DS_Store
@@ -27,3 +32,4 @@ conf.d/secrets.zsh
 # IDE
 .idea/
 .vscode/
+
