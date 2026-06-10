@@ -8,13 +8,10 @@
 # antidote plugin cache
 .antidote/
 
-# secrets
+# plaintext local secrets (encrypted *.age files are safe to track)
+.zshrc.local
 secrets.zsh
-secrets.zsh.gpg
-secrets.zsh.age
 config/secrets.zsh
-config/secrets.zsh.gpg
-config/secrets.zsh.age
 
 # macOS
 .DS_Store
